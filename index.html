@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div id="calculator">
+        <input id="calculatorscreen" readonly>
+        <div id="keys">
+            
+            <button onclick="Clear()" id="allclear">AC</button>
+            <button onclick="ClickHandel(`(`)" id="bracket">(</button>
+            <button onclick="ClickHandel(`)`)" id="percentage">)</button>
+            <button onclick="ClickHandel(`/`)" id="division">&divide</button>
+            <button onclick="ClickHandel(7)" id="seven">7</button>
+            <button onclick="ClickHandel(8)" id="eight">8</button>
+            <button onclick="ClickHandel(9)" id="nine">9</button>
+            <button onclick="ClickHandel(`x`)" id="multiply">x</button>
+            <button onclick="ClickHandel(4)" id="four">4</button>
+            <button onclick="ClickHandel(5)" id="five">5</button>
+            <button onclick="ClickHandel(6)" id="six">6</button>
+            <button onclick="ClickHandel(`-`)" id="minus">&#8722</button>
+            <button onclick="ClickHandel(1)" id="one">1</button>
+            <button onclick="ClickHandel(2)" id="two">2</button>
+            <button onclick="ClickHandel(3)" id="three">3</button>
+            <button onclick="ClickHandel(`+`)" id="plus">+</button>
+            <button onclick="ClickHandel(0)" id="zero">0</button>
+            <button onclick="ClickHandel(`.`)" id="circledot">.</button>
+            <button onclick="clr()" id="clear">C</button>
+            <button id = "equaltoo" onclick="Calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
